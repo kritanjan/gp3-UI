@@ -62,6 +62,7 @@
     color: #fff;
     background-color: #ff4820;
     border-radius: 5px 0 0 5px;
+    border: none;
 }
 
 .gpt3__header-content__people {
