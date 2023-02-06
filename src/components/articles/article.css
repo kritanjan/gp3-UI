@@ -15,7 +15,7 @@
     height: 100%;
     width: 100%;
 }
-.got3__blog-container-article-content{
+.gpt3__blog-container_article-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,6 +35,7 @@
     font-size: 25.11px;
     line-height: 30px;
     margin-bottom: 5rem;
+    cursor: pointer;
 
     color: #FFFFFF;
 }
