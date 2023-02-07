@@ -29,7 +29,7 @@ function Features() {
         <p>Request early access to get started</p>
       </div>
       <div className='gpt3__features-container'>
-        {featuresData.map((item)=>(<Feature title={item.title} text={item.text}/>))}
+        {featuresData.map((item)=>(<Feature key={item.title} title={item.title} text={item.text}/>))}
       </div>
     </div>
   )

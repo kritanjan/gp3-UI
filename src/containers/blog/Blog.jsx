@@ -10,22 +10,22 @@ import blog05 from '../../assets/blog05.png'
 let blogs = [
   {
     imgUrl: blog02,
-    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is? 1',
     date: 'Sep 26, 2021'
   },
   {
     imgUrl: blog03,
-    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is? 2',
     date: 'Sep 26, 2021'
   },
   {
     imgUrl: blog04,
-    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is? 3',
     date: 'Sep 26, 2021'
   },
   {
     imgUrl: blog05,
-    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    title: 'GPT-3 and Open  AI is the future. Let us exlore how it is? 4',
     date: 'Sep 26, 2021'
   }
   
@@ -43,7 +43,7 @@ function Blog() {
           <Article imgUrl={blog01} title='GPT-3 and Open  AI is the future. Let us exlore how it is?' date='Sep 26, 2021' />
         </div>
         <div className='gpt3__blog-container-groupB'>
-        {blogs.map((item)=>(<Article imgUrl={item.imgUrl} date={item.date} title={item.title}/>))}
+        {blogs.map((item)=>(<Article imgUrl={item.imgUrl} date={item.date} key={item.title} title={item.title}/>))}
         </div>
       </div>
     </div>
